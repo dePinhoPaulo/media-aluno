@@ -1,0 +1,48 @@
+:root{
+    --var-color: brown;
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+img{
+    width: 150px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    transform: skew(5deg);
+}
+
+input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input:focus{
+    color:white;
+    background-color: gray;
+}
+
+*::selection{
+    color:lightgreen;
+    background-color: hotpink;
+}
+
+h1{
+    color: var(--var-color);
+    text-align: center;
+    margin-top: 0px;
+}
+
+button{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
